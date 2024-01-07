@@ -1,10 +1,11 @@
+import { FavoriteList } from "../../components";
 
 
 
 export function FavoritePlacesPage() {
     return (
         <>
-            <p>fav places</p>
+            <FavoriteList />
         </>
     )
 }
