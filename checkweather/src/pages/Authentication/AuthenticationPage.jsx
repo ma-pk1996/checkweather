@@ -1,10 +1,11 @@
+import { AuthForm } from "../../components";
 
 
 
 export function AuthenticationPage() {
     return (
         <>
-            <p>auth</p>
+            <AuthForm />
         </>
     )
 }

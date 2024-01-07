@@ -9,7 +9,7 @@
 }
 
 .name {
-    margin-left: 43rem;
+    margin-left: 40rem;
     text-align: right;
     justify-content: right;
 }
@@ -39,10 +39,11 @@ nav ul {
     border: 1px solid rgb(235, 231, 255);
     border-radius: 6px;
     background-color:rgb(252, 251, 251);
-    color: rgb(0, 112, 223);
+    color: rgb(0, 87, 173);
     cursor: pointer;
     text-decoration: none;
-    height: 2rem;
+    height: 2.2rem;
+    text-align: center;
 }
 
 
@@ -55,4 +56,6 @@ nav ul {
     max-height: 100%;
     outline: solid 1px #00843d;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    padding: 0;
+    margin: 0;
 }
