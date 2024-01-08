@@ -9,7 +9,6 @@ export function FavoriteList() {
             <div className={classes.city}>Tehran, Iran</div>
             <div className={classes.frame2}></div>
             <div className={classes.today}>Today </div>
-            <div className={classes.tomorrow}>Tomorrow </div>
             <div className={classes.humidity}>Humidity</div>
           </div>
         </li>

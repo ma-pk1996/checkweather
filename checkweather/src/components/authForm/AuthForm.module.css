@@ -5,8 +5,6 @@
   align-items: flex-start;
   height: 400px;
   width: 500px;
-  outline: solid 0.5px #000;
-  border-radius: 12px;
 }
 .input {
   z-index: 0;
@@ -25,7 +23,7 @@
   z-index: 0;
   position: absolute;
   left: 47px;
-  top: 233px;
+  top: 213px;
   width: 400px;
   height: 45px;
   border-radius: 12px;
@@ -55,7 +53,7 @@
   z-index: 0;
   position: absolute;
   left: 47px;
-  top: 172px;
+  top: 150px;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -65,7 +63,7 @@
   z-index: 0;
   position: absolute;
   left: 132px;
-  top: 330px;
+  top: 310px;
   width: 240px;
   height: 45px;
   align-items: flex-start;
@@ -83,18 +81,18 @@
   font-family: Sans Serif Collection, system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 46%;
-  top: 84.5%;
+  left: 45.8%;
+  top: 81.5%;
   flex-direction: column;
 }
 .button2 {
   position: absolute;
-  left: 42.1%;
-  top: 88%;
+  left: 41.1%;
+  top: 85%;
   align-items: flex-start;
   border-radius: 12px;
   background-color: #dce7ff;
-  width: 210px;
+  width: 220px;
   height: 45px;
   cursor: pointer;
   border: none;

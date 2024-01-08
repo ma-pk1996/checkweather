@@ -1,14 +1,61 @@
 {
-    "users": [
-        {
-            "email": "mahdi@gmail.com",
-            "password": "123123",
-            "id": "adaskdjajdas"
-        }
-    ],
-    "cities": [
-        {
-            "name": "tehran"
-        }
-    ]
+  "users": [
+    {
+      "email": "mahdi@gmail.com",
+      "password": "123123",
+      "id": "adaskdjajdas"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Qom",
+      "temp": 15.18,
+      "humidity": 14,
+      "coord": [
+        34.6401,
+        50.8764
+      ],
+      "id": 1
+    },
+    {
+      "name": "Tehran",
+      "temp": 13.85,
+      "humidity": 16,
+      "coord": [
+        35.6944,
+        51.4215
+      ],
+      "id": 2
+    },
+    {
+      "name": "Mashhad",
+      "temp": 13.08,
+      "humidity": 44,
+      "coord": [
+        36.297,
+        59.6062
+      ],
+      "id": 3
+    },
+    {
+      "name": "Yazd",
+      "temp": 18.06,
+      "humidity": 8,
+      "coord": [
+        31.8972,
+        54.3675
+      ],
+      "id": 4
+    },
+    {
+      "name": "London",
+      "temp": 3.08,
+      "humidity": 69,
+      "coord": [
+        51.5085,
+        -0.1257
+      ],
+      "id": 5
+    }
+  ]
 }
