@@ -16,6 +16,7 @@
     align-items: flex-start;
     border: 1px solid blueviolet;
     border-radius: 16px;
+    text-align: left;
 }
 .name {
     color: #000;
@@ -27,14 +28,24 @@
     top: 5%;
     flex-direction: column;
 }
+
+.status {
+    left: 43px;
+    top: 20%;
+    flex-direction: column;
+    position: absolute;
+    font-size: 24px;
+}
+
+
 .temprature {
     color: #000;
     font-size: 28px;
     font-family: Sans Serif Collection, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
     position: absolute;
-    left: 130px;
-    top: 30%;
+    left: 146px;
+    top: 35%;
     flex-direction: column;
     transform: translate(-50%, -50%);
 }
@@ -45,7 +56,7 @@
     'Liberation Sans', sans-serif;
     position: absolute;
     left: 46px;
-    top: 35%;
+    top: 38%;
     flex-direction: column;
 }
 .windSpeed {
@@ -55,7 +66,7 @@
     'Liberation Sans', sans-serif;
     position: absolute;
     left: 43px;
-    top: 45%;
+    top: 47%;
     flex-direction: column;
 }
 .humidity {
@@ -65,7 +76,7 @@
     'Liberation Sans', sans-serif;
     flex-direction: column;
     left: 43px;
-    top: 58%;
+    top: 60%;
     position: absolute;
 }
 .tomorrow {
@@ -76,7 +87,7 @@
     position: absolute;
     flex-direction: column;
     left: 43px;
-    top: 70%;
+    top: 72%;
 }
 
 .save {
